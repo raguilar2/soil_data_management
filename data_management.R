@@ -1,11 +1,12 @@
+# This is the data management part of a consulting project where the client 
+# had thousands of files with the data in rows that varied with 
+# each file. The data were collected by a researcher interested in soil 
+# respiration rates when different treatments were applied.
+
+# packages required to run code (also requires plyr)
 library(dplyr)
 library(knitr)
 library(WriteXLS)
-
-# This is the data management part of a consulting project where the client 
-# had thousands of files with the data in rows and columns that varied with 
-# each file. The data were collected by a researcher interested in soil 
-# respiration rates when different treatments were applied.
 
 # obtains file names and paths of csv files in specified folder 
 files <- list.files('.../LI-8100 Files', 
